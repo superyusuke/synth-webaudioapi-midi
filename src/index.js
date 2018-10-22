@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import Synth from '/src/Synth'
 import createAudioContext from '/src/WebAudioAPI/createAudioContext'
 import getMIDIInputDevices from '/src/MIDI/getMIDIInputDevices'
@@ -28,4 +27,4 @@ const start = async () => {
   }
 }
 
-start()
+export default start
